@@ -73,7 +73,7 @@ Comprehensive evaluation framework comparing:
 pip install transformers tensorflow torch kaggle
 ```
 
-### Model Training
+### Pre-Trained Model Testing
 ```bash
 # Download datasets
 python download-kaggle-data.py
@@ -86,7 +86,8 @@ jupyter notebook model-conversion/convert-torch-tflite.ipynb
 ### Benchmarking
 ```bash
 cd benchmark/
-jupyter notebook text-model-benchmark.ipynb
+jupyter notebook benchmark-image-models.ipynb
+jupyter notebook benchmark-text-models.ipynb
 ```
 
 ## Performance Results
