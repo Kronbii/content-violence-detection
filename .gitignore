@@ -1,3 +1,8 @@
+datasets/
+old-dev/
+output/
+original-models/saved_model_dynamic
+tflite-models/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
